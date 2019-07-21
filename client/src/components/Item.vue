@@ -20,11 +20,11 @@
 
           <v-list-tile-content>
             <v-list-tile-title :class="this.$vuetify.breakpoint.mdAndUp?'font-weight-medium text-name':'font-weight-medium'">Evan You</v-list-tile-title>
-             <v-list-tile-title class="caption font-weight-light">HCM</v-list-tile-title>
+             <v-list-tile-title class="caption font-weight-light">19, HCM</v-list-tile-title>
           </v-list-tile-content>
 
           <v-layout align-center justify-end>
-            <v-btn icon><v-icon class="mr-1">mdi-heart</v-icon></v-btn>
+            <v-btn icon><v-icon class="mr-1">mdi-heart-outline</v-icon></v-btn>
             <span class="subheading mr-1">256</span>
             <span class="mr-2"></span>
               <v-btn icon> <v-icon class="mr-1">mdi-information</v-icon></v-btn>
