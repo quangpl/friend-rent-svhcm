@@ -1,7 +1,11 @@
 <template>
 <div>
-    <v-container grid-list-md text-xs-center class="mt-5">
+  <TheFilter/>
+
+    <v-container grid-list-md text-xs-center>
+      
     <v-layout row wrap>
+
       <v-flex xs12 sm6 md4 lg3>
         <Item/>
       </v-flex>
@@ -27,10 +31,12 @@
 
 </template>
 <script>
+import TheFilter from "./TheFilter"
 import Item from "./Item";
 export default {
   components: {
-    Item
+    Item,
+    TheFilter
   },
   data: () => ({
     card_text:

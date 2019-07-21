@@ -14,12 +14,15 @@
 <script>
 import HomeBar from "./HomeBar";
 import HomeContent from "./HomeContent";
+import TheFilter from "./TheFilter";
+
 export default {
   components: {
     HomeBar,
-    HomeContent
+    HomeContent,
+    TheFilter
   },
-  data: () => ({})
+  data: () => ({}),
 };
 </script>
 
