@@ -28,6 +28,10 @@
     <v-toolbar color="indigo" dark fixed app>
       <v-btn @click="drawer=!drawer" icon><v-icon>menu</v-icon></v-btn>
       <v-toolbar-title><v-icon>search</v-icon>MyFriend</v-toolbar-title>
+      <v-spacer></v-spacer>
+          <v-btn icon class="mr-5 mb-3">
+                   <v-btn color="error">Đăng cho thuê </v-btn>
+          </v-btn>
     </v-toolbar>
   </v-app>
 </template>
